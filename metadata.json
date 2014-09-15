@@ -1,0 +1,44 @@
+{
+  "dependencies": [
+    {
+      "version_requirement": ">= 3.2.0",
+      "name": "puppetlabs/stdlib"
+    },
+    {
+      "version_requirement": ">= 0.3.1",
+      "name": "fiddyspence/sysctl"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "files/oraInst.loc": "9cd219a93dbd8dc6ac3b6d9128e7c05f",
+    "manifests/dbca.pp": "8ac6725dfd0d55b00a244d5dea1460d5",
+    "files/init.oracle": "6f5984a1226b6ff28dc1ed3266c75367",
+    "manifests/root_config.pp": "812a44c4cfc5121b370c49ffd42242ad",
+    "manifests/listener.pp": "38d10d863e3289a082c4a7779be435fa",
+    "manifests/params.pp": "4cd6e8d0978887462a735ed066dd9658",
+    "Modulefile": "2d926e13c94af0bc0f994b7cc565d1af",
+    "files/oratab": "475048ee89ef0ddd418991d146835bcd",
+    "files/netca.rsp": "2e1c1a46127ba71bf35f0c8d5516a0ea",
+    "manifests/packages.pp": "5050ac3c1b3c87d5a471747ec5ad190d",
+    "README.md": "cf64e85846e4a88463d152eec2f2762c",
+    "files/profile": "f9209b37dc1aadbb05b81eb5fee96d7e",
+    "manifests/init.pp": "4b536a3e266f32f4b1aecc5e74b7cc45",
+    "LICENSE": "d2794c0df5b907fdace235a619d80314",
+    "manifests/user.pp": "5e697ddb788074d373ffac3fccfff725",
+    "files/dbca.rsp": "a9e92e6f16aa9a0b7ae0de561fb36581",
+    "manifests/installer.pp": "896381d3c7ac1743935f68ba9d25188b",
+    "templates/db_install.rsp": "2e54cc3f5cae4d1f24c5d4da25c92760",
+    "files/limits.conf": "506e49177cde93b6c9c9b1eac94d35e4"
+  },
+  "source": "git://github.com/continuent/continuent-oracle.git",
+  "version": "0.0.1",
+  "author": "Continuent",
+  "summary": "Oracle module",
+  "name": "continuent-oracle",
+  "license": "Apache 2.0",
+  "project_page": "https://github.com/continuent/continuent-oracle",
+  "description": "Oracle module"
+}
